@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a  id="loginLink"> <!-- data-toggle="modal" data-target="#loginModal" removed -->
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -39,12 +39,12 @@
         </div>
     </nav>
 <!-- Modal for the login -->
-    <div id="loginModal" class="modal fade" role="dialog">
+    <div id="loginModal"  class="modal" role="dialog"> <!--fade removed from the class-->
         <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login</h4>
-                    <button type="button" class="close" data-dismiss="modal">
+                    <button id="closeCard" type="button" class="close"> <!-- data-dismiss="modal" removed -->
                         &times;
                     </button>
                 </div>
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto">Cancel</button> <!-- data-dismiss="modal" removed -->
                             <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
                         </div>
                     </form>
@@ -88,8 +88,8 @@
 
                     <!-- Modal for the reserve table form -->
                 </div>
-                <a data-toggle="modal" data-target="#tableModal">
-                    <button role="button" class="btn btn-block nav-link btn-warning">
+                <a> <!-- data-toggle="modal" data-target="#tableModal" removed -->
+                    <button id="buttonTable" role="button" class="btn btn-block nav-link btn-warning">
                         Reserve Table
                     </button>
                  </a>
@@ -98,7 +98,7 @@
                         <div id="moda2" class="modal-content">
                             <div class="modal-header">
                                 <h3 class="modal-title">Reserve a Table</h3>
-                                <button type="button" class="close" data-dismiss="modal">
+                                <button id="closeTable" type="button" class="close"> <!-- data-dismiss="modal" removed-->
                                     &times;
                                 </button>
                             </div>
@@ -154,7 +154,7 @@
                                         </div>
                                         <div class="form-group row col-12">
                                             <div class="offset-md-2 col-md-12">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-secondary">Cancel</button> <!--data-dismiss="modal" removed-->
                                                 <button type="submit" class="btn btn-primary">Reserve</button>
                                             </div>
                                         </div>
@@ -324,6 +324,24 @@
                     $("#carouselButton").children("span").removeClass('fa-play');
                     $("#carouselButton").children("span").addClass('fa-pause');
                 }
+            });
+        });
+//JavaScript code for the reserve table modal
+        $(document).ready(function(){
+            $("#buttonTable").click(function(){
+                $("#tableModal").modal('show')
+            });
+            $("#closeTable").click(function(){
+                $("#tableModal").modal('hide')
+            });
+        });
+//JavaScript code for the login modal
+        $(document).ready(function(){
+            $("#loginLink").click(function(){
+                $("#loginModal").modal('show')
+            });
+            $("#closeCard").click(function(){
+                $("#loginModal").modal('hide')
             });
         });
     </script>
