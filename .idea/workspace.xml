@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c92dbc75-adb8-47de-8cc5-319d1fc1a90e" name="Default Changelist" comment="buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="c92dbc75-adb8-47de-8cc5-319d1fc1a90e" name="Default Changelist" comment="php files added" />
+>>>>>>> 2ff9fa965dc076b37dfa61dd94ecfd59dd366ae6
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,9 +91,13 @@
       <workItem from="1597599044489" duration="676000" />
       <workItem from="1598374662220" duration="48832000" />
       <workItem from="1598812636094" duration="1001000" />
+<<<<<<< HEAD
       <workItem from="1599978220580" duration="37000" />
       <workItem from="1599978338256" duration="1323000" />
       <workItem from="1599991479801" duration="19000" />
+=======
+      <workItem from="1614113114612" duration="404000" />
+>>>>>>> 2ff9fa965dc076b37dfa61dd94ecfd59dd366ae6
     </task>
     <task id="LOCAL-00001" summary="buttons">
       <created>1598377986858</created>
@@ -98,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598377986858</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="php files added">
+      <created>1614113225462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614113225462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,36 +133,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons" />
+    <MESSAGE value="php files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="php files added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="140" key="GridCell.Tab.0.bottom" timestamp="1596791138048">
+    <state width="1259" height="140" key="GridCell.Tab.0.bottom" timestamp="1614113431987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1596791138048" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1596700072043" />
-    <state width="1259" height="140" key="GridCell.Tab.0.center" timestamp="1596791138047">
+    <state width="1259" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1614113431987" />
+    <state width="1259" height="140" key="GridCell.Tab.0.center" timestamp="1614113431987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="140" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1596791138047" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1596700072043" />
-    <state width="1259" height="140" key="GridCell.Tab.0.left" timestamp="1596791138046">
+    <state width="1259" height="140" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1614113431987" />
+    <state width="1259" height="140" key="GridCell.Tab.0.left" timestamp="1614113431986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="140" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1596791138046" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1596700072043" />
-    <state width="1259" height="140" key="GridCell.Tab.0.right" timestamp="1596791138048">
+    <state width="1259" height="140" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1614113431986" />
+    <state width="1259" height="140" key="GridCell.Tab.0.right" timestamp="1614113431987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="140" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1596791138048" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1596700072043" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598377997302">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598377997302" />
-    <state x="5" y="154" key="run.anything.popup" timestamp="1596380329555">
+    <state width="1259" height="140" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1614113431987" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614113227735">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="5" y="154" key="run.anything.popup/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1596380329555" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1614113227735" />
   </component>
 </project>
